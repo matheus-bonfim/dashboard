@@ -1,0 +1,45 @@
+/* Estilos básicos para a barra lateral */
+.sidebar {
+    height: 100vh; /* Barra lateral ocupa toda a altura da tela */
+    width: 250px; /* Largura da barra lateral */
+    position: fixed; /* Fixa na lateral da tela */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Cor de fundo escura */
+    padding-top: 20px; /* Espaço no topo */
+  }
+  
+  /* Estilo do título da barra lateral */
+  .sidebar h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos para a lista de botões */
+  .sidebar-buttons {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding: 0;
+  }
+  
+  .sidebar-buttons li {
+    margin: 10px 0;
+  }
+  
+  /* Estilo para os botões */
+  .sidebar-btn {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s; /* Transição suave ao passar o mouse */
+  }
+  
+  .sidebar-btn:hover {
+    background-color: #575757; /* Muda a cor ao passar o mouse */
+  }
+  

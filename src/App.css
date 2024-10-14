@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.content {
+  color:white;
+  margin-left: '300px';
+  padding: '20px'; 
+  background-color: #030303; /* Cor de fundo clara */
+  
+  min-height: 100vh; /* Garante que o conteúdo ocupe toda a altura da janela */
+
+}
+
+
+.subcontent {
+  margin-left: '50px';
+  color: black;
+  font-size: 15px;
+  padding: '20px';
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+
+.refresh-btn {
+  width: 30%;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s; /* Transição suave ao passar o mouse */
+}
