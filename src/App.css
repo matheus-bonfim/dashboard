@@ -39,8 +39,9 @@
 
 .content {
   color:white;
-  margin-left: '300px';
-  padding: '20px'; 
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
   background-color: #030303; /* Cor de fundo clara */
   
   min-height: 100vh; /* Garante que o conteúdo ocupe toda a altura da janela */
@@ -69,3 +70,12 @@
   font-size: 16px;
   transition: 0.3s; /* Transição suave ao passar o mouse */
 }
+
+.grafico {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  color: black;
+  margin-left: calc(50vw - 300px);
+}
+

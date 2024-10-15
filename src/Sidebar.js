@@ -12,7 +12,7 @@ const Sidebar = ({ onContentChange }) => {
           </button>
         </li>
         <li>
-          <button className="sidebar-btn" onClick={() => onContentChange('Dashboard')}>
+          <button className="sidebar-btn" onClick={() => onContentChange('Gráfico Teste')}>
             Dashboard
           </button>
         </li>
@@ -31,8 +31,8 @@ const Sidebar = ({ onContentChange }) => {
           </button>
         </li>
         <li>
-          <button className="sidebar-btn" onClick={() => onContentChange('Logout')}>
-            Logout
+          <button className="sidebar-btn" onClick={() => onContentChange('Gráfico Cotação')}>
+            Gráfico Cotação
           </button>
         </li>
       </ul>
