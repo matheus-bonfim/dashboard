@@ -54,7 +54,7 @@ const GraficoCotacao = (response) => {
           //console.log("dentro do loop :"+ response.list[i].high);
       }
       for(let i=0; i<days; i++){
-        days_list[i] = i; 
+        days_list[i] = i+1; 
       }
       console.log("high_list:"+high_list);
 
